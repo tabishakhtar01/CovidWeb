@@ -38,7 +38,7 @@ body
 }
 .lef h3
 {   
-    margin-top: 400px;
+    margin-top: 380px;
     font-weight: 800;
     font-size: 20px;
     text-transform: capitalize;
@@ -72,5 +72,10 @@ body
 @media screen and (max-width: 986px) {
     .rght {
         display: none !important;
+    }
+}
+@media screen and (max-width: 986px) {
+    .lef h3 {
+        margin-top: 300px !important;
     }
 }

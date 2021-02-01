@@ -31,17 +31,17 @@ body{
 .list1
 {
     font-size: 20px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    margin-top: 50px;
+    margin-top: 80px;
     text-transform: capitalize;
-    font-style: underline;
-    font-family: 'Comfortaa', cursive;
     position: relative;
+}
+.list1 h2
+{
+    font-size: 20px;
 }
 .heading2
 {
-    margin-top: 50px;
+    margin-top: 70px;
     
 }
 .testing
@@ -55,16 +55,15 @@ body{
 }
 .testing h2
 {
-    font-stretch: extra-expanded;
-    letter-spacing: 2px;
-    font-family: 'Caveat', cursive;
     font-size: 20px;
-    font-style: italic;
     text-align: justify;
 }
 .testing #font1
 {
     font-size: 40px;
-    padding-top: 30px;
-    font-style: bold;
+}
+@media screen and (max-width: 986px) {
+    .list1 {
+        margin-top: 50px !important;
+    }
 }
