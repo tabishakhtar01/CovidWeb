@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 100vh;
+        width: 100%;
+        background-image: url("images/error.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+    .navi
+{
+    padding:0px 30px;
+}
+.navi:hover
+{
+    background-color: teal;
+    font-weight: bolder;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top transparent" id="nav1">
+        <a class="navbar-brand" href="#">Hii There!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item navi">
+              <a class="nav-link" href="/index">Home</a>
+            </li>
+            <li class="nav-item navi">
+              <a class="nav-link" href="/coronaTracking">Track Cases</a>
+            </li>
+            <li class="nav-item navi">
+              <a class="nav-link" href="/precautions">Preacutions</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</body>
+</html>

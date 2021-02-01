@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url("/images/bg3.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-width
+{
+    width: 100%;
+    margin: 0px;
+}
+.navi
+{
+    padding:0px 30px;
+}
+.navi:hover
+{
+    background-color: teal;
+    font-weight: bolder;
+}
+#nav1
+{  
+    opacity: 0.9; 
+    filter:(opacity=50);       
+}
+.list1
+{
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-style: underline;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+}
+.heading2
+{
+    margin-top: 50px;
+    
+}
+.testing
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testing h1{
+    padding-top:50px;
+    font-size: 25px;
+}
+.testing h2
+{
+    font-stretch: extra-expanded;
+    letter-spacing: 2px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+}
+.testing #font1
+{
+    font-size: 40px;
+    padding-top: 30px;
+    font-style: bold;
+}

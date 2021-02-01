@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html
+{
+    height: 100vh;
+}
+body
+{
+    background-image: url("../images/bg6.png");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+.logo img
+{
+    height: 150px;
+    margin-left: -10px;
+}
+.navi
+{
+    padding:0px 30px;
+}
+.navi:hover
+{
+    background-color: teal;
+    font-weight: bolder;
+}
+#nav1
+{  
+    opacity: 0.7; 
+    filter:(opacity=50);       
+}
+.lef h3
+{   
+    margin-top: 400px;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: cadetblue;
+    margin-left: 30px;
+
+}
+.lef h1
+{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: darkgrey;
+    margin-left: 30px;
+}
+ .rght
+{
+    animation-name: cod;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    margin-left: 400px;
+} 
+@keyframes cod
+{   
+    0% {background-color:none; left:0px; top:0px;transform:rotate(0deg);}
+    50% {background-color:none; left:0px; top:100px;}
+    100% {background-color: none; left:0px ;top:0px;transform: rotate(360deg);}
+}
+@media screen and (max-width: 986px) {
+    .rght {
+        display: none !important;
+    }
+}
