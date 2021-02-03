@@ -1,7 +1,9 @@
-function myfun()
-{
-    var gdata = document.getElementById('gdat').value;
-    // console.log(gdata);
+// const button = document.getElementById("button");
+function myfun(e)
+{   
+    e.preventDefault();
+    var gdata = document.getElementById('country').value;
+    console.log(gdata);
     if((gdata<0 || gdata>189) || isNaN(gdata)) 
     {
         document.getElementById('welcome').innerHTML = "Wrong Input";
@@ -47,4 +49,4 @@ function covid19(index)
 }
 covid19(gdata);
 } 
-myfun();
+const button = document.addEventListener('submit',myfun);
